@@ -10,6 +10,12 @@ class LifecycleEx extends Component {
     this.state = {};
     console.log("1. constructor Call");
   }
+
+  componentDidCatch() {
+    this.setState({ tmp_state2: true });
+    this.setState({ tmp_state2: true });
+  }
+
   render() {
     console.log("3. render Call");
     return <h2>[THIS IS RENDER FUCNTION ]</h2>;
