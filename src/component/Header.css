@@ -1,0 +1,70 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+  padding: 0px 15px;
+  background-color: #fafafa;
+}
+.header-logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+.header-nav {
+  display: flex;
+}
+
+.header-option {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.header-option a {
+  color: black;
+  font-weight: 900;
+}
+
+.header-option text {
+  color: gray;
+}
+
+.header-shoppingCart {
+  font-size: 33px;
+}
+.header-shoppingCartLink {
+  position: relative;
+}
+.header-shoppingCartCount {
+  font-size: 13px;
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  color: white;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  bottom: 13px;
+  left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-optionLineOne {
+  font-size: 18px;
+}
+.header-optionLineTwo {
+  font-size: 20px;
+}
+
+.non-Active {
+  display: none;
+}
